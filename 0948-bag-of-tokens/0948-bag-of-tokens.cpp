@@ -1,19 +1,10 @@
-#define MAX 1000
 class Solution {
 public:
-    vector<int> countSort(vector<int>& inputArray)
-{
- 
-
-    int N = inputArray.size();
- 
-
-    // Finding the maximum element of array inputArray[].
-
-    int M = 0;
- 
-
-    for (int i = 0; i < N; i++)
+    void countSort(vector<int>& inputArray)
+    {
+        int N = inputArray.size();
+        int M = 0;
+        for (int i = 0; i < N; i++)
 
         M = max(M, inputArray[i]);
  
@@ -60,14 +51,18 @@ public:
         countArray[inputArray[i]]--;
 
     }
+         for (int i =0; i < N; i++)
  
 
-    return outputArray;
+    {
+             inputArray[i]=outputArray[i];
+
     }
-    int bagOfTokensScore(vector<int>& to, int p) {
-        int s=0, len= to.size();
+    }
+    int bagOfTokensScore(vector<int>& t, int p) {
+        int s=0, len= t.size();
         int j=len-1;
-        vector<int>t=countSort(to);
+        countSort(t);
         for(int i=0; i<len; i++){
             if(p>=t[i]){
                 s++;
