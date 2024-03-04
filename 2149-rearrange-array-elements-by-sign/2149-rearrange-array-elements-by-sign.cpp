@@ -11,7 +11,8 @@ public:
                 b.push_back(nums[i]);
             }
         }
-        for(int i=0; i<a.size(); i++){
+        int len1=a.size();
+        for(int i=0; i<len1; i++){
             ans.push_back(a[i]);
             ans.push_back(b[i]);
         }
