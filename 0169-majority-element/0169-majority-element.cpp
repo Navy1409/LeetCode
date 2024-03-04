@@ -1,17 +1,29 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        map<int, int> m;
-        int i;
-        vector<int> ans;
-        for(auto i : nums){
-            m[i]++;
-        }
-        for(auto i :m){
-            if(i.second>(nums.size()/2)){
-                return i.first;
+        int c=0, el, len=nums.size();
+        //Moores voore algo
+        for(int i=0; i<len; i++){
+            if(c==0){
+                el=nums[i];
+                c=1;
+            }
+            else if(el==nums[i]){
+                c++;
+            }
+            else{
+                c--;
             }
         }
-        return 0;
+        int cel=0;
+        for(int i=0;i<len;i++){
+            if(nums[i]==el){
+                cel++;
+            }
+        }
+        if(cel>=len/2){
+            return el;
+        }
+        return -1;
     }
 };
