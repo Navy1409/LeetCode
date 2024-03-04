@@ -2,7 +2,8 @@ class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
         vector<int> a,b,ans;
-        for(int i=0; i<nums.size(); i++){
+        int len=nums.size();
+        for(int i=0; i<len; i++){
             if(nums[i]>=0){
                 a.push_back(nums[i]);
             }
