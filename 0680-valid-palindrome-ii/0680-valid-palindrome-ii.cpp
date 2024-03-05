@@ -5,10 +5,8 @@ public:
             if(s[i]!=s[j]){
                 return false;
             }
-            else{
-                i++;
-                j--;
-            }
+            i++;
+            j--;
         }
         return true;
     }
