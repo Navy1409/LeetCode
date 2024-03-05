@@ -20,10 +20,8 @@ public:
                 return palin(s,i+1,j) || palin(s,i,j-1);
 
             }
-            else{
-                i++;
-                j--;
-            }
+            i++;
+            j--;
         }
         return true;
     }
