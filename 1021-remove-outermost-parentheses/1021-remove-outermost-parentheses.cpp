@@ -3,7 +3,8 @@ public:
     string removeOuterParentheses(string s) {
         int c=0;
         string ans;
-        for(int i=0; i<s.length(); i++){
+        int len=s.length();
+        for(int i=0; i<len; i++){
             if(s[i]==')'){
                 c--;
             }
