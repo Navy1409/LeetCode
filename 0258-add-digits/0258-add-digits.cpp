@@ -9,6 +9,8 @@ public:
             sum+=num%10;
             num=num/10;
         }
+        
+        //revise
         return addDigits(sum);
     }
 };
