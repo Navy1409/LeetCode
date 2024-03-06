@@ -8,8 +8,7 @@
  */
 class Solution {
 public:
-    bool hasCycle(ListNode *head) {
-        ListNode *temp= head;
+    bool hasCycle(ListNode *temp) {
         vector<ListNode *>po;
         if(temp==NULL){
             return false;
