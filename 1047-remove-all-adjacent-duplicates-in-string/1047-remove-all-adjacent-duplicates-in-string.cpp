@@ -4,8 +4,11 @@ public:
         int len=s.size();
         stack<char> ans;
         for(int i=0; i<len; i++){
-            if(ans.empty()||s[i]!=ans.top()){
+            if(ans.empty()){
                 cout<<s[i]<<endl;
+                ans.push(s[i]);
+            }
+            else if(s[i]!=ans.top()){
                 ans.push(s[i]);
             }
             else{
