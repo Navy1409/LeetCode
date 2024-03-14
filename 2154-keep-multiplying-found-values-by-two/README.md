@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/keep-multiplying-found-values-by-two/">2154. Keep Multiplying Found Values by Two</a></h2><h3>Easy</h3><hr><div><p>You are given an array of integers <code>nums</code>. You are also given an integer <code>original</code> which is the first number that needs to be searched for in <code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/keep-multiplying-found-values-by-two">2154. Keep Multiplying Found Values by Two</a></h2><h3>Easy</h3><hr><p>You are given an array of integers <code>nums</code>. You are also given an integer <code>original</code> which is the first number that needs to be searched for in <code>nums</code>.</p>
 
 <p>You then do the following steps:</p>
 
@@ -13,7 +13,8 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> nums = [5,3,6,1,12], original = 3
+<pre>
+<strong>Input:</strong> nums = [5,3,6,1,12], original = 3
 <strong>Output:</strong> 24
 <strong>Explanation:</strong> 
 - 3 is found in nums. 3 is multiplied by 2 to obtain 6.
@@ -24,7 +25,8 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> nums = [2,7,9], original = 4
+<pre>
+<strong>Input:</strong> nums = [2,7,9], original = 4
 <strong>Output:</strong> 4
 <strong>Explanation:</strong>
 - 4 is not found in nums. Thus, 4 is returned.
@@ -37,4 +39,3 @@
 	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= nums[i], original &lt;= 1000</code></li>
 </ul>
-</div>
