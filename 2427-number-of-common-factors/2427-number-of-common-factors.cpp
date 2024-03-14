@@ -6,7 +6,7 @@ public:
             m=b;
             n=a;
         }
-        for(int i=1; i<=m; i++){
+        for(int i=1; i<=n; i++){
             if(m%i==0&&n%i==0){
                 c++;
             }
