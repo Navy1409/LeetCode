@@ -2,7 +2,7 @@ class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
         int len = tasks.size();
-        std::unordered_map<char, int> mp;
+        unordered_map<char, int> mp;
         for (int i = 0; i < len; i++) {
             mp[tasks[i]]++;
         }
@@ -16,7 +16,7 @@ public:
                 c++;
             }
         }
-        int a=(maxFreq-1)*(n+1)+(c);
+        int a=(maxFreq-1)*(n)+(c)+(maxFreq-1);
         a=max(a,len);
         return a;
     }
