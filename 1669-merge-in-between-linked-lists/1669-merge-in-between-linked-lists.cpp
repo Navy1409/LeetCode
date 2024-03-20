@@ -18,11 +18,9 @@ public:
         }
         tail2=temp2;
         temp2=list1;
-        while(b){
-            b--;
+        while(b--){
             temp2=temp2->next;
         }
-        cout<<temp2->val;
         tail2->next=temp2->next;
         ListNode* temp1=list1, *prev;
         while(a--){
