@@ -40,7 +40,7 @@ public:
         }
         ListNode* head=lists[0];
         for(int i=1; i<len; i++){
-            head= merge2Lists(head, lists[i]);
+            head=merge2Lists(head, lists[i]);
         }
         return head;
     }
