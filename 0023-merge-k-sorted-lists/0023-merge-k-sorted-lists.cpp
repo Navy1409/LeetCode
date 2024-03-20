@@ -31,6 +31,8 @@ public:
             tail->next=l2;
         }
         ListNode *res= dummy->next;
+        delete dummy;
+        delete tail;
         return res;
     }
     ListNode* mergeKLists(vector<ListNode*>& lists) {
