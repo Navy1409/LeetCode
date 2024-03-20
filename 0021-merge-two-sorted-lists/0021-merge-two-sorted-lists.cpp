@@ -21,7 +21,7 @@
 //             if (temp1->val >= temp2->val) {
 //                 a = temp1->val;
 //                 temp1 = temp1->next;
-//             } 
+//             }
 //             else {
 //                 a = temp2->val;
 //                 temp2 = temp2->next;
@@ -61,8 +61,10 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* dummy = new ListNode(); // Dummy node to simplify list construction
-        ListNode* tail = dummy; // Pointer to the current node in the merged list
+        ListNode* dummy =
+            new ListNode(); // Dummy node to simplify list construction
+        ListNode* tail =
+            dummy; // Pointer to the current node in the merged list
 
         // Traverse both lists until one of them becomes empty
         while (list1 && list2) {
