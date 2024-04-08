@@ -6,11 +6,11 @@ public:
         for(auto i : s){
             mp[i]++;
         }
-        if(mp.size()==1){
-            for(auto i: mp){
-                return i.second;
-            }
-        }
+        // if(mp.size()==1){
+        //     for(auto i: mp){
+        //         return i.second;
+        //     }
+        // }
         for(auto m: mp){
             if(m.second%2==0){
                 count+=m.second;
