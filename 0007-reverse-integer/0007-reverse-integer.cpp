@@ -1,9 +1,6 @@
 class Solution {
 public:
     long long reverse(long long x) {
-        if(x>pow(2, 31)-1){
-            return 0;
-        }
         long long n=x;
         vector<long long> nums;
         while(n){
@@ -15,6 +12,9 @@ public:
         for(long long i: nums){
             num+=i*pow(10,c);
             c--;
+        }
+        if(num>pow(2, 31)-1||num<pow(-2, 31)){
+            return 0;
         }
         return num;
     }
