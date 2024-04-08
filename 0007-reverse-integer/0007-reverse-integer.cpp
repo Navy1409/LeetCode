@@ -1,15 +1,15 @@
 class Solution {
 public:
-    long long reverse(long long x) {
-        long long n=x;
-        vector<long long> nums;
+    int reverse(int x) {
+        int n=x;
+        vector<int> nums;
         while(n){
             nums.push_back(n%10);
             n=n/10;
         }
-        long long c=nums.size()-1;
-        long long num=0;
-        for(long long i: nums){
+        int c=nums.size()-1;
+        int num=0;
+        for(int i: nums){
             num+=i*pow(10,c);
             c--;
         }
