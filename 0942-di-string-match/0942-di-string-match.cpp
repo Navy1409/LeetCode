@@ -38,6 +38,7 @@ public:
             }
         }
         a[len]=f;
+        // a.push_back(f);
         return a;
     }
 };
