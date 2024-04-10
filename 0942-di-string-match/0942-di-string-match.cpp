@@ -26,7 +26,7 @@ public:
         //     r--;
         // }
         // a.push_back(q[f]);
-         vector<int> a(len+1);
+        vector<int> a(len+1);
         int f=0, r=len;
         for(int i=0; i<len; i++){
             if(s[i]=='I'){
