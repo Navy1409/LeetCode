@@ -32,17 +32,15 @@ public:
     int largestRectangleArea(vector<int>& heights) {
         int n= heights.size();
         vector<int> nextS;
-        nextS = nextSmaller( heights, n);
+        nextS = nextSmaller(heights, n);
         vector<int> prevS;
         prevS = prevSmaller( heights, n);
         int ans=-1;
         for(int i=0; i<n; i++){
-            int l= heights[i];
             if(nextS[i]==-1){
                 nextS[i]=n;
             }
-            int b= nextS[i]-prevS[i]-1;
-            int area= l*b;
+            int area= heights[i]*( nextS[i]-prevS[i]-1);
             ans=max(area, ans);
         }
         return ans;        
