@@ -35,7 +35,7 @@ public:
         nextS = nextSmaller( heights, n);
         vector<int> prevS;
         prevS = prevSmaller( heights, n);
-        int ans=INT_MIN;
+        int ans=-1;
         for(int i=0; i<n; i++){
             int l= heights[i];
             if(nextS[i]==-1){
