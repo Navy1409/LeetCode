@@ -2,7 +2,7 @@ class Solution {
 public:
     int bitwiseComplement(int n) {
         if(n==0){
-            return 0;
+            return 1;
         }
         vector<int> a;
         while(n){
