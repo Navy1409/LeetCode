@@ -4,7 +4,7 @@ public:
         int f=0, l=nums.size()-1;
         int m;
         while(f<=l){
-            m=(l+f)/2;
+            m=(f+(l-f)/2);
             if(nums[m]==target){
                 return m;
             }
