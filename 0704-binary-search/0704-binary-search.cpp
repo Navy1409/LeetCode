@@ -12,7 +12,7 @@ public:
                 f=m+1;
             }
             else{
-                l=m-11;
+                l=m-1;
             }
         }
         return -1;
