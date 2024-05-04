@@ -7,6 +7,9 @@ public:
                 maxi=arr[i];
                 ans=i;
             }
+            if(arr[i]<maxi){
+                break;
+            }
         }
         return ans;
     }
