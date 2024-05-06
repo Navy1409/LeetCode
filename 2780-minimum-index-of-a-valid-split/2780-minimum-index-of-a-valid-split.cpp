@@ -1,36 +1,30 @@
-#include <vector>
-#include <unordered_map>
-using namespace std;
-
 class Solution {
 public:
     int minimumIndex(vector<int>& nums) {
-        int len = nums.size();
-        unordered_map<int, int> mp;
-        int maxFreq = 0, maxFreqElement = 0;
-
-        // Count frequencies and find the element with maximum frequency
+        unordered_map<int, int> count;
         for (int num : nums) {
-            mp[num]++;
-            if (mp[num] > maxFreq) {
-                maxFreq = mp[num];
-                maxFreqElement = num;
-            }
+            count[num]++;
         }
-
-        // Calculate the threshold frequency
-        int threshold = len / 2 + 1;
-
-        // Iterate through the array to find the minimum index
-        int count = 0;
-        for (int i = 0; i < len; i++) {
-            if (nums[i] == maxFreqElement) {
-                count++;
-                if (count * 2 > i + 1 && maxFreq * 2 > len - i) {
-                    return i;
+        
+        for (auto& [num, freq] : count) {
+            if (freq * 2 > nums.size()) {
+                int idx = -1;
+                int cnt = 0;
+                for (int i = 0; i < nums.size(); i++) {
+                    if (nums[i] == num) {
+                        cnt++;
+                        if (cnt * 2 > i + 1 && (freq - cnt) * 2 > nums.size() - i - 1) {
+                            idx = i;
+                            break;
+                        }
+                    }
+                }
+                if (idx!= -1) {
+                    return idx;
                 }
             }
         }
+        
         return -1;
     }
 };
