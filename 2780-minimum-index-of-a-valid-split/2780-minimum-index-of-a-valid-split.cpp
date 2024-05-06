@@ -1,30 +1,28 @@
 class Solution {
 public:
     int minimumIndex(vector<int>& nums) {
-        unordered_map<int, int> count;
-        for (int num : nums) {
-            count[num]++;
+        int len= nums.size();
+        map<int, int> mp;
+        for(auto i: nums){
+            mp[i]++;
         }
-        
-        for (auto& [num, freq] : count) {
-            if (freq * 2 > nums.size()) {
-                int idx = -1;
-                int cnt = 0;
-                for (int i = 0; i < nums.size(); i++) {
-                    if (nums[i] == num) {
-                        cnt++;
-                        if (cnt * 2 > i + 1 && (freq - cnt) * 2 > nums.size() - i - 1) {
-                            idx = i;
-                            break;
-                        }
-                    }
-                }
-                if (idx!= -1) {
-                    return idx;
+        int c, el;
+        for(auto i: mp){
+            if(i.second*2> len){
+               c=i.second;
+               el=i.first;
+               break;
+            }
+        }
+        int ci=0;
+        for(int i=0; i<len; i++){
+            if(nums[i]==el){
+                ci++;
+                if(ci*2>i+1 && (c-ci)*2>(len-i-1)){
+                    return i;
                 }
             }
         }
-        
         return -1;
     }
 };
