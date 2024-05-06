@@ -11,10 +11,7 @@ public:
             if(i.second*2> len){
                c=i.second;
                el=i.first;
-               break;
-            }
-        }
-        int ci=0;
+                int ci=0;
         for(int i=0; i<len; i++){
             if(nums[i]==el){
                 ci++;
@@ -23,6 +20,10 @@ public:
                 }
             }
         }
+               break;
+            }
+        }
+       
         return -1;
     }
 };
