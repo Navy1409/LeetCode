@@ -11,16 +11,17 @@ public:
             if (i.second * 2 > len) {
                 c = i.second;
                 el = i.first;
-                int ci = 0;
-                for (int i = 0; i < len; i++) {
-                    if (nums[i] == el) {
-                        ci++;
-                        if (ci * 2 > i + 1 && (c - ci) * 2 > (len - i - 1)) {
-                            return i;
-                        }
-                    }
-                }
+
                 break;
+            }
+        }
+        int ci = 0;
+        for (int i = 0; i < len; i++) {
+            if (nums[i] == el) {
+                ci++;
+                if (ci * 2 > i + 1 && (c - ci) * 2 > (len - i - 1)) {
+                    return i;
+                }
             }
         }
 
