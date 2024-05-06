@@ -15,8 +15,7 @@ public:
             curr = curr->next;
         }
 
-        ListNode* res = new ListNode(t.top());
-        ListNode* temp = res;
+        ListNode* temp = new ListNode(t.top());
         t.pop();
 
         // Construct the result linked list using values from the stack
@@ -26,7 +25,6 @@ public:
             newNode->next=temp;
             temp=newNode;
         }
-        res=temp;
-        return res;
+        return temp;
     }
 };
