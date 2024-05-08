@@ -17,7 +17,7 @@ public:
                     s[in] = "Bronze Medal";
                 }
             } else {
-                s[in] = (i + 1 + '0');
+                s[in] = to_string(i + 1);
             }
         }
         return s;
