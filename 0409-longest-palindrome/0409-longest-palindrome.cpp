@@ -1,16 +1,11 @@
 class Solution {
 public:
     int longestPalindrome(string s) {
-        int len=s.size(), count=0, flag=0;
+        int count=0, flag=0;
         map<char, int> mp;
         for(auto i : s){
             mp[i]++;
         }
-        // if(mp.size()==1){
-        //     for(auto i: mp){
-        //         return i.second;
-        //     }
-        // }
         for(auto m: mp){
             if(m.second%2==0){
                 count+=m.second;
