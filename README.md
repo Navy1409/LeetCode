@@ -71,3 +71,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/Navy1409/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/Navy1409/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/Navy1409/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
+## Matrix
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
+<!---LeetCode Topics End-->
