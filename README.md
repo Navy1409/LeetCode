@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Matrix
 |  |
@@ -93,4 +94,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Navy1409/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
