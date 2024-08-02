@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
 ## Matrix
 |  |
 | ------- |
@@ -98,4 +99,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
+## Ordered Set
+|  |
+| ------- |
+| [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
 <!---LeetCode Topics End-->
