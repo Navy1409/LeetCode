@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Navy1409/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
 ## Matrix
@@ -107,4 +108,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
+## Binary Search
+|  |
+| ------- |
+| [0882-peak-index-in-a-mountain-array](https://github.com/Navy1409/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
