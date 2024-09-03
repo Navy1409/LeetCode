@@ -44,26 +44,18 @@ class Solution {
     //     else{
     //         return true;
     //     }
-    int smallest=INT_MAX, smallIdx=-1;
-    for(int i=0; i<nums.size(); i++){
-        if(nums[i]<=smallest){
-            smallest=nums[i];
-            smallIdx=i;
-        }
-    }
-    for(int i=smallIdx; i<nums.size()-1; i++){
+    int c=0;
+    for(int i=0; i<nums.size()-1; i++){
         if(nums[i]>nums[i+1]){
-            return false;
+            c++;
         }
     }
-    if(smallIdx != 0 && nums[0]<nums[nums.size()-1]){
+    if(nums[nums.size()-1]>nums[0]){
+        c++;
+    }
+    if(c>1){
         return false;
     }
-    for(int i=0; i<smallIdx-1; i++){
-        if(nums[i]>nums[i+1]){
-            return false;
-        }
-    }
     return true;
-    }
+  }
 };
