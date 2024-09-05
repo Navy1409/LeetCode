@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Navy1409/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Navy1409/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Navy1409/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -118,4 +119,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Navy1409/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
+## Math
+|  |
+| ------- |
+| [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
