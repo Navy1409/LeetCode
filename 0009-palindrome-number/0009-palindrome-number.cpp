@@ -1,12 +1,33 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        string y=to_string(x);
-        for(int i=1; i<=(y.length()/2); i++){
-            if(y[i-1]!=y[y.length()-i]){
-               return false;
-            }
+        if(x<0){
+            return false;
         }
-        return true;
+        vector<int> v;
+        while(x){
+            v.push_back(x%10);
+            x/=10;
+        }
+        x=v.size();
+      for(int i=0; i<x/2; i++){
+        if(v[i]!=v[x-i-1]){
+            return false;
+        }
+      }  
+      return true;
     }
 };
+
+// class Solution {
+// public:
+//     bool isPalindrome(int x) {
+//         string y=to_string(x);
+//         for(int i=1; i<=(y.length()/2); i++){
+//             if(y[i-1]!=y[y.length()-i]){
+//                return false;
+//             }
+//         }
+//         return true;
+//     }
+// };
