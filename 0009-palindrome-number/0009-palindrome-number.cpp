@@ -1,3 +1,18 @@
+// class Solution {
+// public:
+//     bool isPalindrome(int x) {
+//         int k=x, r=0;
+//         while(k){
+//             r=r*10+(k%10);
+//             k/=10;
+//         }
+//         if(x==r){
+//             return true;
+//         }
+//         return false;
+//     }
+// };
+
 class Solution {
 public:
     bool isPalindrome(int x) {
