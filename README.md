@@ -123,5 +123,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/Navy1409/LeetCode/tree/master/0007-reverse-integer) |
 | [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
