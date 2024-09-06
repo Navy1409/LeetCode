@@ -1,3 +1,5 @@
+// does not work
+/*************************/
 // class Solution {
 // public:
 //     bool isPalindrome(int x) {
@@ -12,7 +14,7 @@
 //         return false;
 //     }
 // };
-
+/********************************/
 class Solution {
 public:
     bool isPalindrome(int x) {
