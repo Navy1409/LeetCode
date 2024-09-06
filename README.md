@@ -124,5 +124,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Navy1409/LeetCode/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/Navy1409/LeetCode/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
 <!---LeetCode Topics End-->
