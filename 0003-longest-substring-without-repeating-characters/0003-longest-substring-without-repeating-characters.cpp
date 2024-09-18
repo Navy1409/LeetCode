@@ -4,7 +4,6 @@ public:
         int maxC=0, len= s.size(), start=0, end=0;
         vector<char> vchar;
         for(int i=0; i<len; i++){
-            maxC=max(maxC,(end-start));
             if(find(vchar.begin()+start, vchar.end(), s[i])==vchar.end()){
                 end++;
                 vchar.push_back(s[i]);
@@ -14,6 +13,7 @@ public:
                 end++;
                  vchar.push_back(s[i]);
             }
+            maxC=max(maxC,(end-start));
         }
         return maxC;
     }
