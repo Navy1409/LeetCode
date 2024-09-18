@@ -91,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Navy1409/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Navy1409/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Stack
 |  |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Navy1409/LeetCode/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Navy1409/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -128,4 +130,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/Navy1409/LeetCode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Navy1409/LeetCode/tree/master/0009-palindrome-number) |
 | [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Navy1409/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
