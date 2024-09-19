@@ -55,6 +55,7 @@ public:
             newHeadTemp=newHeadTemp->next;
             headTemp=headTemp->next;
         }
+        reverse(newHead);
         return ans;
     }
 };
