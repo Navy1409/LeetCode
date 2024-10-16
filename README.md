@@ -138,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0007-reverse-integer](https://github.com/Navy1409/LeetCode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Navy1409/LeetCode/tree/master/0009-palindrome-number) |
+| [0050-powx-n](https://github.com/Navy1409/LeetCode/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Navy1409/LeetCode/tree/master/0189-rotate-array) |
 ## Sliding Window
 |  |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Navy1409/LeetCode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Navy1409/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Navy1409/LeetCode/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
