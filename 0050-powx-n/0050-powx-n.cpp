@@ -4,7 +4,7 @@ public:
          if (n == INT_MIN) {
             x = 1 / x;
             n = INT_MAX;
-            return x * myPow(x, n); // Handle extra multiplication for INT_MIN
+            return x * myPow(x, n);
         }
         if(n==0){
             return 1;
