@@ -13,7 +13,6 @@ public:
             }
             else{
                 cnt=1;
-                // i++;
             }
         }
         return ans;
