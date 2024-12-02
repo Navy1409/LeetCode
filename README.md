@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0882-peak-index-in-a-mountain-array](https://github.com/Navy1409/LeetCode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Navy1409/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Navy1409/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Navy1409/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2726-minimum-reverse-operations](https://github.com/Navy1409/LeetCode/tree/master/2726-minimum-reverse-operations) |
 ## Matrix
 |  |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/Navy1409/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Navy1409/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Navy1409/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Navy1409/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Navy1409/LeetCode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 ## Stack
 |  |
@@ -168,4 +170,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Navy1409/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/Navy1409/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 <!---LeetCode Topics End-->
