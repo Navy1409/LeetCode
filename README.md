@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Navy1409/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Navy1409/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Navy1409/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/Navy1409/LeetCode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Navy1409/LeetCode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 ## Stack
 |  |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/Navy1409/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0142-linked-list-cycle-ii](https://github.com/Navy1409/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Navy1409/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
+| [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/Navy1409/LeetCode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -183,4 +185,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/Navy1409/LeetCode/tree/master/0075-sort-colors) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Navy1409/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+## Counting
+|  |
+| ------- |
+| [2377-check-if-number-has-equal-digit-count-and-digit-value](https://github.com/Navy1409/LeetCode/tree/master/2377-check-if-number-has-equal-digit-count-and-digit-value) |
 <!---LeetCode Topics End-->
